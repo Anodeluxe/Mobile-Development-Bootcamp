@@ -24,12 +24,12 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-//
+
 //        binding.rvMain.layoutManager = LinearLayoutManager(this)
 //
 //
 //        binding.rvMain.adapter = ToDoListAdapter
-//        ToDoListAdapter.submitList(dummyData)
+        ToDoListAdapter.submitList(dummyData)
 
     }
 }
